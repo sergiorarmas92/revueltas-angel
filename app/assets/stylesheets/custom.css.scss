@@ -30,7 +30,6 @@
 }
 
 
-
 html,
 body {
   height: 100%;
@@ -50,6 +49,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 600px;
+    text-align:center;
 }
 
 #jumbo3{
@@ -58,6 +58,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 300px;
+    text-align:center;
 }
 
 #jumbo4{
@@ -68,8 +69,14 @@ body {
     height: 500px;
 }
 
-#body2{
-
+#jumbo5{
+  background-image: asset-url('home1.png');
+  background-color: white;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    text-align:center;
 }
 
 #h1{
