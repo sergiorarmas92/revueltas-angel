@@ -2,6 +2,8 @@
 
 .navbar {
     background-color: #136bab !important;
+    box-shadow: 2px 2px 5px #3292a6;
+    background: #fff;
 }
 
 .nav-link{
@@ -12,6 +14,45 @@
     margin-top: 0px;;
 }
 
+#homeeducation{
+  background: url("prueba.jpg");
+  min-height: 600px; 
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 465px;
+  opacity: 0.9;
+}
+
+
+
+  #homeradio{
+    background: url("prueba2.jpg");
+  min-height: 600px; 
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 465px;
+  opacity: .8;
+  }
+   
+  #homeservicios{
+    background: url("servicios.jpg");
+  min-height: 600px; 
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 465px;
+  opacity: .7;
+}
+
+/*
+  -webkit-filter: grayscale(100%);  Chrome, Safari, Opera 
+  filter: grayscale(100%);
+*/
+  
+
+
 #logo{
     float: left;
     font-size: 1.7em;
@@ -19,14 +60,6 @@
     text-transform: uppercase;
     letter-spacing: -1px;
     font-weight: bold;
-}
-
-#jumbo1{
-    background-image: asset-url('home1.png');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 350px;
 }
 
 
@@ -43,45 +76,7 @@ body {
   flex-shrink: none;
 }
 
-#jumbo2{
-  background-color: white;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 600px;
-    text-align:center;
-}
 
-#jumbo3{
-  background-color: white;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 300px;
-    text-align:center;
-}
-
-#jumbo4{
-  background-color: white;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 500px;
-}
-
-#jumbo5{
-  background-image: asset-url('home1.png');
-  background-color: white;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 500px;
-    text-align:center;
-}
-
-#h1{
-  margin: 80px;
-}
 
 /* Centered text */
 .carousel-caption {
@@ -92,80 +87,17 @@ body {
   transform: translate(-50%, -50%);
 }
 
+#image{
+  height: 400px;
+  width: 400px;
+}
+
 .carousel-indicators{
   color:black;
 }
 
-
-
-/* Other Classes for Page Styling */
-
-
-#body3 {
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
-}
-
-html {
-  box-sizing: border-box;
-}
-
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
-.column {
-  float: left;
-  width: 33.3%;
-  margin-bottom: 16px;
-  padding: 0 8px;
-}
-
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  margin: 8px;
-}
-
-.about-section {
-  padding: 50px;
-  text-align: center;
-  background-color: #474e5d;
-  color: white;
-}
-
-.container {
-  padding: 0 16px;
-}
-
-.container::after, .row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-.title {
-  color: grey;
-}
-
-.button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 8px;
-  color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-}
-
-.button:hover {
-  background-color: #555;
-}
-
-@media screen and (max-width: 650px) {
-  .column {
-    width: 100%;
-    display: block;
-  }
-}
+#authors img {
+  margin-top: -50px; }
+#authors .card:hover {
+  background: #3292a6;
+  color: #fff; }
