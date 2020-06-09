@@ -1,19 +1,94 @@
 @import 'bootstrap/dist/css/bootstrap';
 
 .navbar {
-    background-color: #136bab !important;
-    box-shadow: 2px 2px 5px #3292a6;
+    background-color: white !important;
+    box-shadow: 0px 1px 2px #333333;
     background: #fff;
+
+}
+
+.navbar-brand{
+color: black !important;
 }
 
 .nav-link{
-    color: white !important;
+  color: black !important;
 }
+.nav-link-3{
+  font-weight: bold;
+  margin-left: 1em;
+}
+#punchline{
+  text-align: center;
+}
+
 
 #home-container{
     margin-top: 0px;;
 }
 
+.carousel-image-1{
+    background-image: asset-url('pen.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 465px;
+}
+
+.carousel-image-2{
+  background-image: asset-url('casete.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 465px;
+}
+
+.carousel-image-3{
+  background-image: asset-url('newbackground.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 465px;
+}
+
+.carousel-image-4{
+  background-image: asset-url('home.jpg');
+
+}
+
+.carousel-image-5{
+  background-image: asset-url('study2.jpg');
+
+}
+
+.carousel-image-6{
+  background-image: asset-url('study3.jpg');
+
+}
+
+.carousel-image-7{
+  background-image: asset-url('workwu.jpg');
+
+}
+
+.carousel-image-8{
+  background-image: asset-url('radio2.jpg');
+
+}
+
+.carousel-image-9{
+  background-image: asset-url('radio3.jpg');
+
+}
+.card{
+  text-align: center;
+}
+
+
+
+.carousel-item {
+  height: 450px;
+}
 #homeeducation{
   background: url("prueba.jpg");
   min-height: 600px; 
@@ -81,7 +156,7 @@ body {
 /* Centered text */
 .carousel-caption {
   position: absolute;
-  color: ghostwhite;
+  color: black;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -92,8 +167,18 @@ body {
   width: 400px;
 }
 
+
+
 .carousel-indicators{
-  color:black;
+  color:green !important;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+ }
+
+ .carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
 }
 
 #authors img {
