@@ -4,5 +4,6 @@ Rails.application.routes.draw do
   get 'educacion', to: 'pages#educacion'
   get 'radio', to: 'pages#radio'
   get 'servicios', to: 'pages#servicios'
+  get 'revolturas', to: 'pages#revolturas'
 
 end

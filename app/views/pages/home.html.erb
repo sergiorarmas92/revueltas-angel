@@ -14,22 +14,21 @@
       <div class="carousel-caption">
         <h1 class="display-4 text-center"> Educación</h1>
         <p class="mt-3 pt-3"> Escuela, educación y aprendizaje son cosas distintas. En Revueltas construimos propuestas para aprender, experimentar y pensar juntos.</p>
-        <button type="button" class="btn btn-outline-secondary" ><%= link_to "Conoce más", educacion_path%> </button>
+        <%= link_to "Conoce más", educacion_path, class:"nav-link-3 btn btn-outline-dark"%>
       </div>
     </div>
     <div class="carousel-item carousel-image-2" >
       <div class="carousel-caption">
         <h1 class="display-4 text-center"> Radio</h1>
         <p class="mt-3 pt-3"> La radio es el “tambor de la tribu” y a través de ella participamos en la batalla cultural por ampliar nuestros horizontes. </p>
-        <button type="button" class=" btn btn-outline-dark" ><%= link_to "Conoce más", radio_path%></button>
+        <%= link_to "Conoce más", radio_path, class:"nav-link-3 btn btn-outline-dark"%>
       </div>
     </div>
     <div class="carousel-item carousel-image-3">
       <div class="carousel-caption">
         <h1 class="display-4 text-center"> Servicios</h1>
-        <p class="mt-3 pt-3">Ponemos nuestro saber hacer al alcance de otros individuos, colectivos o instituciones. ¡Trabajemos juntos! 
-</p>
-        <button type="button" class="btn btn-outline-secondary"><%= link_to "Conoce más", servicios_path%></button>
+        <p class="mt-3 pt-3">Ponemos nuestro saber hacer al alcance de otros individuos, colectivos o instituciones. ¡Trabajemos juntos! </p>
+        <%= link_to "Conoce más", servicios_path, class:"nav-link-3 btn btn-outline-dark"%>
       </div>
     </div>
   </div>
@@ -64,19 +63,19 @@
           <svg class="bi bi-book" width="4em" height="4em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"> <path fill-rule="evenodd" d="M3.214 1.072C4.813.752 6.916.71 8.354 2.146A.5.5 0 018.5 2.5v11a.5.5 0 01-.854.354c-.843-.844-2.115-1.059-3.47-.92-1.344.14-2.66.617-3.452 1.013A.5.5 0 010 13.5v-11a.5.5 0 01.276-.447L.5 2.5l-.224-.447.002-.001.004-.002.013-.006a5.017 5.017 0 01.22-.103 12.958 12.958 0 012.7-.869zM1 2.82v9.908c.846-.343 1.944-.672 3.074-.788 1.143-.118 2.387-.023 3.426.56V2.718c-1.063-.929-2.631-.956-4.09-.664A11.958 11.958 0 001 2.82z" clip-rule="evenodd"/><path fill-rule="evenodd" d="M12.786 1.072C11.188.752 9.084.71 7.646 2.146A.5.5 0 007.5 2.5v11a.5.5 0 00.854.354c.843-.844 2.115-1.059 3.47-.92 1.344.14 2.66.617 3.452 1.013A.5.5 0 0016 13.5v-11a.5.5 0 00-.276-.447L15.5 2.5l.224-.447-.002-.001-.004-.002-.013-.006-.047-.023a12.582 12.582 0 00-.799-.34 12.96 12.96 0 00-2.073-.609zM15 2.82v9.908c-.846-.343-1.944-.672-3.074-.788-1.143-.118-2.387-.023-3.426.56V2.718c1.063-.929 2.631-.956 4.09-.664A11.956 11.956 0 0115 2.82z" clip-rule="evenodd"/></svg>
           <h3>Educación</h3>
           <p> Diseñamos, operamos y evaluamos programas educativos, metodologías, talleres y eventos.</p>
-          <button class="btn btn-primary btn-sm "> <%= link_to "Conoce más", educacion_path, class:"text-white"%></button>
+          <%= link_to "Conoce más", educacion_path, class:"btn btn-primary btn-sm text-white"%>
         </div>
         <div class="col-lg-4 text-center">
         <svg class="bi bi-mic-fill" width="4em" height="4em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M5 3a3 3 0 016 0v5a3 3 0 01-6 0V3z"/><path fill-rule="evenodd" d="M3.5 6.5A.5.5 0 014 7v1a4 4 0 008 0V7a.5.5 0 011 0v1a5 5 0 01-4.5 4.975V15h3a.5.5 0 010 1h-7a.5.5 0 010-1h3v-2.025A5 5 0 013 8V7a.5.5 0 01.5-.5z" clip-rule="evenodd"/></svg>
           <h3>Radio</h3>
           <p> Nos gusta pensar, investigar, hacer preguntas, conversar, grabar, editar y poner en común nuestro trabajo: sintoniza. </p>
-          <button class="btn btn-primary btn-sm"> <%= link_to "Conoce más", radio_path, class:"text-white"%> </button>
+          <%= link_to "Conoce más", radio_path, class:"btn btn-primary btn-sm text-white"%>
         </div>
         <div class="col-lg-4 text-center">
         <svg class="bi bi-briefcase" width="4em" height="4em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M0 12.5A1.5 1.5 0 001.5 14h13a1.5 1.5 0 001.5-1.5v-6h-1v6a.5.5 0 01-.5.5h-13a.5.5 0 01-.5-.5v-6H0v6z" clip-rule="evenodd"/><path fill-rule="evenodd" d="M0 4.5A1.5 1.5 0 011.5 3h13A1.5 1.5 0 0116 4.5v2.384l-7.614 2.03a1.5 1.5 0 01-.772 0L0 6.884V4.5zM1.5 4a.5.5 0 00-.5.5v1.616l6.871 1.832a.5.5 0 00.258 0L15 6.116V4.5a.5.5 0 00-.5-.5h-13zM5 2.5A1.5 1.5 0 016.5 1h3A1.5 1.5 0 0111 2.5V3h-1v-.5a.5.5 0 00-.5-.5h-3a.5.5 0 00-.5.5V3H5v-.5z" clip-rule="evenodd"/></svg>
           <h3>Servicios</h3>
           <p> Desarrollamos proyectos desde distintos frentes, colaboramos y coordinamos equipos interdisciplinarios: juntos hemos hecho esto</p>
-          <button class="btn btn-primary btn-sm"> <%= link_to "Conoce más", servicios_path, class:"text-white"%> </button>
+          <%= link_to "Conoce más", servicios_path, class:"btn btn-primary btn-sm text-white"%> </button>
         </div>
       </div>
     </div>
