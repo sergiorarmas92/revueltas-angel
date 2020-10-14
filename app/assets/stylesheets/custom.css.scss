@@ -186,11 +186,49 @@ body {
 
 #authors img {
   margin-top: -50px; }
+
 #authors .card:hover {
-  background: #3292a6;
+  background: #EBB4BB;
+  color: #fff; 
+}
+#authors .num2:hover {
+  background: #E4CE1D;
+  color: #fff; 
+}
+
+#authors .num3:hover {
+  background: #136BAB;
+  color: #fff; 
+}
+
+#authors .num4:hover {
+  background: #E42B26;
+  color: #fff; 
+}
+
+#authors .num5:hover {
+  background: #2EA6A2;
+  color: #fff; 
+}
+
+#authors .num6:hover {
+  background: #010202;
+  color: #fff; 
+}
+
+#authors .fab {
   color: #fff; }
+#authors .far {
+    color: #fff; }
 
+    .cropped1 {
+      width: 200px; /* width of container */
+      height: 150px; /* height of container */
+      object-fit: cover;
+      object-position: 80% 10%; /* try 20px 10px */ 
+  }
 
+  
   /* Section 6 */
 
   body{margin-top:20px;}
