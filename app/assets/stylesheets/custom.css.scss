@@ -27,20 +27,45 @@ color: black !important;
     margin-top: 0px;;
 }
 
-.carousel-image-1{
+
+.carousel-image-1 {
+  position: relative; 
+  background-image: asset-url('pen.jpg');
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+/*.carousel-image-1::before {
+    content: "";
     background-image: asset-url('pen.jpg');
+    background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.75;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 465px;
-}
+    opacity: 0.75;
+}*/
 
 .carousel-image-2{
+  position: relative; 
   background-image: asset-url('casete.jpg');
-  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 465px;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
 }
 
 .carousel-image-3{
@@ -228,7 +253,7 @@ body {
       object-position: 80% 10%; /* try 20px 10px */ 
   }
 
-  
+
   /* Section 6 */
 
   body{margin-top:20px;}
