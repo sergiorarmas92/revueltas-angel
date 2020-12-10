@@ -18,6 +18,15 @@ color: black !important;
   font-weight: bold;
   margin-left: 1em;
 }
+
+.nav-link-4{
+  margin-top: 1em;
+  position: absolute;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
 #punchline{
   text-align: center;
 }
@@ -177,6 +186,29 @@ body {
 
 #sticky-footer {
   flex-shrink: none;
+}
+
+.footer {
+  color:grey;
+}
+
+.footer:link{
+  text-decoration: none;
+}
+
+.footer:hover {
+  color: white;
+  
+}
+
+.iconfooter{
+  color: grey;
+}
+.iconfooter:link{
+  text-decoration: none;
+}
+.iconfooter:hover{
+  color:white;
 }
 
 
