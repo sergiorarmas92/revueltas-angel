@@ -39,7 +39,31 @@ color: black !important;
 
 .carousel-image-1 {
   position: relative; 
-  background-image: asset-url('pen.jpg');
+  background-image: asset-url('edu1.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.color-text{
+  color: black;
+}
+
+.pad{
+  margin-top: 150px;
+  margin-bottom: 150px;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 40px;
+}
+
+html, body {
+  height:100%;
+} 
+
+/*#punchline {
+  position: relative; 
+  background-image: asset-url('fondo1.jpg');
   background-size: cover;
   height: 100vh;
   width: 100%;
@@ -47,7 +71,15 @@ color: black !important;
   justify-content: center;
 }
 
-
+#quehacemos {
+  position: relative; 
+  background-image: asset-url('fondo2.jpg');
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}*/
 
 /*.carousel-image-1::before {
     content: "";
@@ -67,14 +99,10 @@ color: black !important;
 }*/
 
 .carousel-image-2{
-  position: relative; 
-  background-image: asset-url('casete.jpg');
+  background-image: asset-url('rad13.jpg');
+  background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
-  width: 100%;
-  align-items: center;
-  justify-content: center;
+  background-size: cover ;
 }
 
 .carousel-image-3{
@@ -82,7 +110,6 @@ color: black !important;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 465px;
 }
 
 .carousel-image-4{
@@ -127,35 +154,47 @@ color: black !important;
   height: 450px;
 }
 #homeeducation{
-  background: url("prueba.jpg");
+  /*background: url("edbg.jpg");
   min-height: 600px; 
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 465px;
-  opacity: 0.9;
+  opacity: 0.9;*/
+  background-image: asset-url('edbg3.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover ;
 }
 
 
 
   #homeradio{
-    background: url("prueba2.jpg");
+    /*background: url("p.jpg");
   min-height: 600px; 
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 465px;
-  opacity: .8;
+  opacity: .8;*/
+  background-image: asset-url('radtest.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover ;
   }
    
   #homeservicios{
-    background: url("servicios.jpg");
+    /*background: url("servicios.jpg");
   min-height: 600px; 
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 465px;
-  opacity: .7;
+  opacity: .7;*/
+  background-image: asset-url('ser2.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover ;
 }
 
 /*
@@ -199,6 +238,16 @@ body {
 .footer:hover {
   color: white;
   
+}
+
+.justify {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.containertest{
+    width: 700px;
+    margin: auto;
 }
 
 .iconfooter{
