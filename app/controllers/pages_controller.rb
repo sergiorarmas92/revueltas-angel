@@ -17,6 +17,9 @@ class PagesController < ApplicationController
     def revolturas
     end
 
+    def fpnvera
+    end
+
     def filosofiaparaninos
     end
 

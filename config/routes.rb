@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   get 'radio', to: 'pages#radio'
   get 'servicios', to: 'pages#servicios'
   get 'revolturas', to: 'pages#revolturas'
+  get 'fpn-vera', to: 'pages#fpnvera'
   get 'educacion/filosofiaparaninos', to: 'pages#filosofiaparaninos'
   get 'educacion/planetaneta', to: 'pages#planetaneta'
   get 'educacion/elmisteriodelaspreguntassinrespuesta', to: 'pages#elmisteriodelaspreguntassinrespuesta'
