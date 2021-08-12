@@ -14,6 +14,9 @@ class PagesController < ApplicationController
     def servicios
     end
 
+    def audiovisual
+    end
+
     def revolturas
     end
 

@@ -6,29 +6,37 @@
     <li data-target="#demo" data-slide-to="0" class="active"></li>
     <li data-target="#demo" data-slide-to="1"></li>
     <li data-target="#demo" data-slide-to="2"></li>
+    <li data-target="#demo" data-slide-to="3"></li>
   </ul>
 
   <!-- The slideshow -->
   <div class="carousel-inner">
     <div class="carousel-item carousel-image-1 active">
       <div class="carousel-caption">
-        <h1 class="display-4 text-center color-text"> Educación</h1>
-        <p class="mt-3 pt-3 color-text"> Escuela, educación y aprendizaje son cosas distintas. En Revueltas construimos propuestas para aprender, experimentar y pensar juntos.</p>
+        <h1 class="display-4 text-center color-text"> Talleres</h1>
+        <p class="mt-3 pt-3 color-text"> Construimos propuestas para aprender, experimentar y pensar en colectivo.</p>
         <%= link_to "Conoce más", educacion_path, class:"nav-link-3 btn btn-outline-dark"%>
       </div>
     </div>
     <div class="carousel-item carousel-image-2" >
       <div class="carousel-caption">
-        <h1 class="display-4 text-center"> Radio</h1>
-        <p class="mt-3 pt-3"> La radio es el “tambor de la tribu” y a través de ella participamos en la batalla cultural por ampliar nuestros horizontes. </p>
+        <h1 class="display-4 text-center"> Podcast</h1>
+        <p class="mt-3 pt-3"> Elaboramos propuestas sonoras para detonar el pensamiento crítico.</p>
         <%= link_to "Conoce más", radio_path, class:"nav-link-3 btn btn-outline-dark"%>
       </div>
     </div>
     <div class="carousel-item carousel-image-3">
       <div class="carousel-caption">
-        <h1 class="display-4 text-center"> Servicios</h1>
-        <p class="mt-3 pt-3">Ponemos nuestro << saber hacer >> al alcance de otros individuos, colectivos o instituciones. ¡Trabajemos juntos! </p>
+        <h1 class="display-4 text-center"> Hacemos</h1>
+        <p class="mt-3 pt-3">Reunimos nuestras habilidades y experiencias para diseñar y gestionar proyectos culturales. </p>
         <%= link_to "Conoce más", servicios_path, class:"nav-link-3 btn btn-outline-dark"%>
+      </div>
+    </div>
+        <div class="carousel-item carousel-image-3">
+      <div class="carousel-caption">
+        <h1 class="display-4 text-center"> Audiovisual</h1>
+        <p class="mt-3 pt-3">Producimos contenidos con propuesta creativa, investigación y calidad cinematográfica. </p>
+        <%= link_to "Conoce más", audiovisual_path, class:"nav-link-3 btn btn-outline-dark"%>
       </div>
     </div>
   
@@ -48,7 +56,7 @@
 <section class="py-2" id="punchline">
   <div class="primary-overlay">
     <div class="container">
-        <p class="display-4 text-center pad"> Queremos cambiar el mundo: Somos un proyecto para encontrarnos, pensar y actuar colectivamente. </p>
+        <p class="display-4 text-center pad"> Queremos cambiar el mundo: somos una iniciativa para encontrarnos, pensar y actuar colectivamente. </p>
     </div>
   </div>
 </section>
@@ -58,24 +66,39 @@
 <section  class="py-2 bg-light" id="quehacemos">
   <div class="primary-overlay">
     <div class="container">
-    <h1 class="display-4 mt-5 pt-5 text-center"> ¿Qué hacemos?</h1>
+    <h1 class="display-5 mt-5 pt-5 text-center"> Gestionar </h1>
+    <p class="text-center">1. tr. Llevar adelante una iniciativa o un proyecto</p>
       <div class="row py-5">
         <div class="col-lg-4 text-center">
           <svg class="bi bi-book" width="4em" height="4em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"> <path fill-rule="evenodd" d="M3.214 1.072C4.813.752 6.916.71 8.354 2.146A.5.5 0 018.5 2.5v11a.5.5 0 01-.854.354c-.843-.844-2.115-1.059-3.47-.92-1.344.14-2.66.617-3.452 1.013A.5.5 0 010 13.5v-11a.5.5 0 01.276-.447L.5 2.5l-.224-.447.002-.001.004-.002.013-.006a5.017 5.017 0 01.22-.103 12.958 12.958 0 012.7-.869zM1 2.82v9.908c.846-.343 1.944-.672 3.074-.788 1.143-.118 2.387-.023 3.426.56V2.718c-1.063-.929-2.631-.956-4.09-.664A11.958 11.958 0 001 2.82z" clip-rule="evenodd"/><path fill-rule="evenodd" d="M12.786 1.072C11.188.752 9.084.71 7.646 2.146A.5.5 0 007.5 2.5v11a.5.5 0 00.854.354c.843-.844 2.115-1.059 3.47-.92 1.344.14 2.66.617 3.452 1.013A.5.5 0 0016 13.5v-11a.5.5 0 00-.276-.447L15.5 2.5l.224-.447-.002-.001-.004-.002-.013-.006-.047-.023a12.582 12.582 0 00-.799-.34 12.96 12.96 0 00-2.073-.609zM15 2.82v9.908c-.846-.343-1.944-.672-3.074-.788-1.143-.118-2.387-.023-3.426.56V2.718c1.063-.929 2.631-.956 4.09-.664A11.956 11.956 0 0115 2.82z" clip-rule="evenodd"/></svg>
-          <h3>Educación</h3>
-          <p> Diseñamos, operamos y evaluamos programas educativos, metodologías, talleres y eventos.</p>
+          <h3>Análisis</h3>
+          <p> Investigamos las relaciones entre producto, precio, costo, públicos, canales y alcances para evaluar la viabilidad.</p>
           <%= link_to "Conoce más", educacion_path, class:"btn btn-primary btn-sm text-white"%>
         </div>
         <div class="col-lg-4 text-center">
         <svg class="bi bi-mic-fill" width="4em" height="4em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M5 3a3 3 0 016 0v5a3 3 0 01-6 0V3z"/><path fill-rule="evenodd" d="M3.5 6.5A.5.5 0 014 7v1a4 4 0 008 0V7a.5.5 0 011 0v1a5 5 0 01-4.5 4.975V15h3a.5.5 0 010 1h-7a.5.5 0 010-1h3v-2.025A5 5 0 013 8V7a.5.5 0 01.5-.5z" clip-rule="evenodd"/></svg>
-          <h3>Radio</h3>
-          <p> Nos gusta pensar, investigar, hacer preguntas, conversar, grabar, editar y poner en común nuestro trabajo: sintoniza. </p>
+          <h3>Planificación</h3>
+          <p> Desarrollamos un plan de proyecto que incluye objetivos, presupuesto, cronograma e indicadores.</p>
           <%= link_to "Conoce más", radio_path, class:"btn btn-primary btn-sm text-white"%>
         </div>
         <div class="col-lg-4 text-center">
         <svg class="bi bi-briefcase" width="4em" height="4em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M0 12.5A1.5 1.5 0 001.5 14h13a1.5 1.5 0 001.5-1.5v-6h-1v6a.5.5 0 01-.5.5h-13a.5.5 0 01-.5-.5v-6H0v6z" clip-rule="evenodd"/><path fill-rule="evenodd" d="M0 4.5A1.5 1.5 0 011.5 3h13A1.5 1.5 0 0116 4.5v2.384l-7.614 2.03a1.5 1.5 0 01-.772 0L0 6.884V4.5zM1.5 4a.5.5 0 00-.5.5v1.616l6.871 1.832a.5.5 0 00.258 0L15 6.116V4.5a.5.5 0 00-.5-.5h-13zM5 2.5A1.5 1.5 0 016.5 1h3A1.5 1.5 0 0111 2.5V3h-1v-.5a.5.5 0 00-.5-.5h-3a.5.5 0 00-.5.5V3H5v-.5z" clip-rule="evenodd"/></svg>
-          <h3>Servicios</h3>
-          <p> Desarrollamos proyectos desde distintos frentes, colaboramos y coordinamos equipos interdisciplinarios: juntos hemos hecho esto</p>
+          <h3>Integración de equipos</h3>
+          <p> Buscamos y sumamos a las personas ideales para ejecutar el plan de proyecto. </p>
+          <%= link_to "Conoce más", servicios_path, class:"btn btn-primary btn-sm text-white"%> </button>
+        </div>
+      </div>
+      <div class="row py-5">
+        <div class="col-lg-6 text-center">
+        <svg class="bi bi-briefcase" width="4em" height="4em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M0 12.5A1.5 1.5 0 001.5 14h13a1.5 1.5 0 001.5-1.5v-6h-1v6a.5.5 0 01-.5.5h-13a.5.5 0 01-.5-.5v-6H0v6z" clip-rule="evenodd"/><path fill-rule="evenodd" d="M0 4.5A1.5 1.5 0 011.5 3h13A1.5 1.5 0 0116 4.5v2.384l-7.614 2.03a1.5 1.5 0 01-.772 0L0 6.884V4.5zM1.5 4a.5.5 0 00-.5.5v1.616l6.871 1.832a.5.5 0 00.258 0L15 6.116V4.5a.5.5 0 00-.5-.5h-13zM5 2.5A1.5 1.5 0 016.5 1h3A1.5 1.5 0 0111 2.5V3h-1v-.5a.5.5 0 00-.5-.5h-3a.5.5 0 00-.5.5V3H5v-.5z" clip-rule="evenodd"/></svg>
+          <h3>Ejecución</h3>
+          <p> Documentamos y llevamos a cabo cada etapa del plan</p>
+          <%= link_to "Conoce más", servicios_path, class:"btn btn-primary btn-sm text-white"%> </button>
+        </div>
+        <div class="col-lg-6 text-center">
+        <svg class="bi bi-briefcase" width="4em" height="4em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M0 12.5A1.5 1.5 0 001.5 14h13a1.5 1.5 0 001.5-1.5v-6h-1v6a.5.5 0 01-.5.5h-13a.5.5 0 01-.5-.5v-6H0v6z" clip-rule="evenodd"/><path fill-rule="evenodd" d="M0 4.5A1.5 1.5 0 011.5 3h13A1.5 1.5 0 0116 4.5v2.384l-7.614 2.03a1.5 1.5 0 01-.772 0L0 6.884V4.5zM1.5 4a.5.5 0 00-.5.5v1.616l6.871 1.832a.5.5 0 00.258 0L15 6.116V4.5a.5.5 0 00-.5-.5h-13zM5 2.5A1.5 1.5 0 016.5 1h3A1.5 1.5 0 0111 2.5V3h-1v-.5a.5.5 0 00-.5-.5h-3a.5.5 0 00-.5.5V3H5v-.5z" clip-rule="evenodd"/></svg>
+          <h3>Evaluación</h3>
+          <p> Analizamos la información documentada para recoger aprendizajes y realizar una mejora continua.</p>
           <%= link_to "Conoce más", servicios_path, class:"btn btn-primary btn-sm text-white"%> </button>
         </div>
       </div>
@@ -115,8 +138,8 @@
           <img class="card-img-top"
             src="assets/arte.jpeg" alt="Card image cap" height="250">
           <div class="card-body pt-2 " style="">
-            <h4 class="card-title">¡Habitar el arte! </h4>
-            <p class="card-text">Un curso de verano de experimentación artística y filosofía para niños.</p>
+            <h4 class="card-title">Voces del Siglo </h4>
+            <p class="card-text">Miniserie de la transformación de Guadalajara en la última mitad del siglo XX.</p>
             <a class="btn btn-outline-secondary" href="educacion/habitarelarte" role="button">Ver más</a>
           </div>
         </div>
@@ -127,8 +150,8 @@
           <img class="card-img-top"
             src="assets/tiempo2.jpeg" alt="Card image cap" height="250">
           <div class="card-body  pt-2">
-            <h4 class="card-title">Esculpir el tiempo</h4>
-            <p class="card-text">Un curso de apreciación cinematográfica y reflexión crítica. </p>
+            <h4 class="card-title">Pensar en Comunidad</h4>
+            <p class="card-text">Cursos de Filosofía para Niños en el Instituto de la Vera-Cruz.</p>
             <a class="btn btn-outline-secondary" href="educacion/esculpireltiempo" role="button">Ver más</a>
           </div>
         </div>
@@ -139,8 +162,8 @@
           <img class="card-img-top"
             src="assets/tchcult.jpeg" alt="Card image cap" height="250">
           <div class="card-body pt-2">
-            <h4 class="card-title">Remix: Tecnología, cultura y propiedad</h4>
-            <p class="card-text">Un curso de estudios críticos sobre la propiedad intelectual.</p>
+            <h4 class="card-title">Tolvanera</h4>
+            <p class="card-text">Un documental que recoge la historia del ejido El Bajío (Sonora, México).</p>
             <a class="btn btn-outline-secondary" href="educacion/remix" role="button">Ver más</a>
           </div>
         </div>
@@ -158,8 +181,8 @@
           <img class="card-img-top"
             src="assets/qwa.jpeg" alt="Card image cap" height="250">
           <div class="card-body pt-2">
-            <h4 class="card-title">El misterio de las preguntas sin respuesta </h4>
-            <p class="card-text">Un taller corto inspirado en el programa de filosofía para niños.</p>
+            <h4 class="card-title">Filosofía para Niños</h4>
+            <p class="card-text">Cursos y talleres basados en la propuesta educativa de Matthew Lipman y Ann Sharp.</p>
             <a class="btn btn-outline-secondary" href="educacion/elmisteriodelaspreguntassinrespuesta" role="button">Ver más</a>
           </div>
         </div>
@@ -170,8 +193,8 @@
           <img class="card-img-top"
             src="assets/irobot3.jpeg" alt="Card image cap" height="250">
           <div class="card-body pt-2">
-            <h4 class="card-title">¿Cómo sabes que no eres un robot?</h4>
-            <p class="card-text">Un taller corto inspirado en el programa de filosofía para niños.</p>
+            <h4 class="card-title">Prohibido Pensar Podcast</h4>
+            <p class="card-text">Un programa de entrevistas conducido por Conrado Romo.</p>
             <a class="btn btn-outline-secondary" href="educacion/comosaberquenoeresunrobot" role="button">Ver más</a>
           </div>
         </div>
@@ -183,7 +206,7 @@
             src="assets/planetaneta.jpeg" alt="Card image cap" height="250">
           <div class="card-body pt-2">
             <h4 class="card-title">Planeta Neta + Robotrópolis  </h4>
-            <p class="card-text">Talleres cortos diseñados para FIL Niños.</p>
+            <p class="card-text">Talleres cortos diseñados para el área infantil de la Feria Internacional del Libro de Guadalajara. </p>
             <a class="btn btn-outline-secondary" href="educacion/planetaneta" role="button">Ver más</a>
           </div>
         </div>
@@ -221,14 +244,6 @@
             <div class="form-group">
               <label for="exampleFormControlInput1">Correo Electrónico </label>
               <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-            </div>
-            <div class="form-group ">
-              <label for="exampleFormControlSelect1">Quisiera colaborar con el área de</label>
-              <select class="form-control" id="exampleFormControlSelect1">
-              <option>Educación</option>
-              <option>Radio</option>
-              <option>Servicios</option>
-              </select>
             </div>
             <div class="form-group ">
               <label for="exampleFormControlTextarea1">Comentarios</label>

@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   get 'educacion', to: 'pages#educacion'
   get 'radio', to: 'pages#radio'
   get 'servicios', to: 'pages#servicios'
+  get 'audiovisual', to: 'pages#audiovisual'
   get 'revolturas', to: 'pages#revolturas'
   get 'fpn-vera', to: 'pages#fpnvera'
   get 'educacion/filosofiaparaninos', to: 'pages#filosofiaparaninos'
